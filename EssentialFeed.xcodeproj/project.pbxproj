@@ -113,9 +113,9 @@
 		FA7D31292548E29400C84ACF /* Feed API */ = {
 			isa = PBXGroup;
 			children = (
-				FA7D312A2548E2B600C84ACF /* RemoteFeedLoader.swift */,
-				FA7D3131254B2F0900C84ACF /* HTTPClient.swift */,
 				FA7D3135254B2F5900C84ACF /* FeedItemsMapper.swift */,
+				FA7D3131254B2F0900C84ACF /* HTTPClient.swift */,
+				FA7D312A2548E2B600C84ACF /* RemoteFeedLoader.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
