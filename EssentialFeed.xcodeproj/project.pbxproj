@@ -16,6 +16,7 @@
 		FA7D312B2548E2B600C84ACF /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D312A2548E2B600C84ACF /* RemoteFeedLoader.swift */; };
 		FA7D3132254B2F0900C84ACF /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D3131254B2F0900C84ACF /* HTTPClient.swift */; };
 		FA7D3136254B2F5900C84ACF /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D3135254B2F5900C84ACF /* FeedItemsMapper.swift */; };
+		FA7D313F254BAC3300C84ACF /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D313E254BAC3300C84ACF /* URLSessionHTTPClientTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		FA7D312A2548E2B600C84ACF /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		FA7D3131254B2F0900C84ACF /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		FA7D3135254B2F5900C84ACF /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
+		FA7D313E254BAC3300C84ACF /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		FA7D313B254B40AB00C84ACF /* Feed API */ = {
 			isa = PBXGroup;
 			children = (
+				FA7D313E254BAC3300C84ACF /* URLSessionHTTPClientTests.swift */,
 				FA53A80425468D42004D2F0F /* RemoteFeederLoaderTests.swift */,
 			);
 			path = "Feed API";
@@ -250,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA53A7E425439E50004D2F0F /* EssentialFeedTests.swift in Sources */,
+				FA7D313F254BAC3300C84ACF /* URLSessionHTTPClientTests.swift in Sources */,
 				FA53A80525468D42004D2F0F /* RemoteFeederLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
